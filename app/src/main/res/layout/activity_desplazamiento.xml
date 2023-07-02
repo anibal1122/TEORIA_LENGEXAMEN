@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityDesplazamiento">
+
+    <Button
+        android:id="@+id/nuevofut"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:onClick="NuevoFut"
+        android:text="NUEVO FUTBOLISTA"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/ListaFut"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:onClick="listafutbolistas"
+        android:text="LISTA DE FUTBOLISTAS"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="366dp" />
+</LinearLayout>

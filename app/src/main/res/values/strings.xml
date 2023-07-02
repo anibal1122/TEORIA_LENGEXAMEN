@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TEORIA_LENGEXAMEN</string>
+    <string-array name="gender_options">
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Haiti</item>
+        <item>Qatar</item>
+    </string-array>
+
+    <string-array name="genderco_options">
+        <item>Portero</item>
+        <item>Central</item>
+        <item>Mediocampista</item>
+        <item>Delantero</item>
+    </string-array>
+
+
+</resources>
+

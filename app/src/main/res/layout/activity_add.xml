@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtnomb"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre del futbolista"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtapell"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Ingrese el apellido del futbolista"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/paisesco"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:entries="@array/gender_options" />
+
+    <Spinner
+        android:id="@+id/posicionco"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:entries="@array/genderco_options" />
+
+    <EditText
+        android:id="@+id/txted"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Ingrese la edad del futbolista"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Ingresar futbolista" />
+
+    <Button
+        android:id="@+id/btnlregresar"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:onClick="activity_desplazamiento"
+        android:text="REGRESAR" />
+</LinearLayout>
